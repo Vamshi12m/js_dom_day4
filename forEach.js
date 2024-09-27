@@ -7,13 +7,14 @@ numbers.forEach(double);
 console.log(numbers);
 
 //Anonymous function
+const numbers1=[1,2,3,4,5];
 
-numbers.forEach(function (element,index,array){
+numbers1.forEach(function (element,index,array){
     array[index]=element*2;
 });
-console.log(numbers);
+console.log(numbers1);
 
 //Arrow function
-
-numbers.forEach((element,index,array)=>array[index]=element*2);
-console.log(numbers);
+const numbers2=[1,2,3,4,5];
+numbers2.forEach((element,index,array)=>array[index]=element*2);
+console.log(numbers2);
